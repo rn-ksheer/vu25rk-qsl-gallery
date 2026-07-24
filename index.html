@@ -1,1 +1,82 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Worldwide QSL Gallery</title>
+
+    <meta name="description"
+        content="Worldwide QSL Gallery - Received from Amateur Radio Friends Around the World">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <h1>🌍 Worldwide QSL Gallery</h1>
+
+        <p>
+            Received from Amateur Radio Friends Around the World
+        </p>
+
+    </header>
+
+    <!-- ================ MAIN ================= -->
+
+    <main>
+
+        <!-- Gallery will be created here automatically -->
+        <div id="galleryContainer"></div>
+
+    </main>
+
+    <!-- =============== IMAGE VIEWER =============== -->
+
+    <div id="lightbox" class="hidden">
+
+        <!-- Dark Background -->
+        <div id="overlay"></div>
+
+        <!-- Close -->
+        <button id="closeBtn" title="Close">&times;</button>
+
+        <!-- Previous -->
+        <button id="prevBtn" title="Previous">&#10094;</button>
+
+        <!-- Image -->
+
+        <div class="lightbox-content">
+
+            <img id="lightboxImage"
+                 src=""
+                 alt="QSL Card"
+                 draggable="false">
+
+            <div id="imageCaption"></div>
+
+        </div>
+
+        <!-- Next -->
+        <button id="nextBtn" title="Next">&#10095;</button>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>73 de VU3CQM</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
