@@ -42,17 +42,19 @@ async function loadGallery() {
 
     }
 
-    catch (err) {
+catch (err) {
 
-        galleryContainer.innerHTML =
-        `
+    console.error("Gallery Error:", err);
+
+    galleryContainer.innerHTML = `
         <h2 style="text-align:center;color:#ff5555;">
             Unable to load gallery.json
         </h2>
-        `;
-
-        console.error(err);
-    }
+        <p style="text-align:center;color:#ccc;">
+            Check browser console (F12)
+        </p>
+    `;
+}
 
 }
 
