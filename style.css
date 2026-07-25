@@ -1,0 +1,469 @@
+/* ==========================================================
+   Worldwide QSL Gallery
+   style.css
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#111;
+    color:#f5f5f5;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height:1.6;
+
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.site-header{
+
+    text-align:center;
+
+    padding:45px 20px;
+
+    border-bottom:1px solid #2d2d2d;
+}
+
+.site-header h1{
+
+    font-size:2.2rem;
+
+    margin-bottom:10px;
+
+    color:white;
+}
+
+.site-header p{
+
+    color:#b5b5b5;
+
+    font-size:1rem;
+}
+
+
+/* ==========================================================
+   MAIN
+========================================================== */
+
+main{
+
+    max-width:1500px;
+
+    margin:auto;
+
+    padding:35px 20px;
+}
+
+
+/* ==========================================================
+   YEAR
+========================================================== */
+
+.year-section{
+
+    margin-bottom:60px;
+}
+
+.year-title{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+    padding-bottom:10px;
+
+    border-bottom:2px solid #2196F3;
+}
+
+
+/* ==========================================================
+   GALLERY GRID
+========================================================== */
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fill,minmax(220px,1fr));
+
+    gap:22px;
+}
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.gallery-item{
+
+    background:#1b1b1b;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    box-shadow:
+        0 0 12px rgba(0,0,0,.35);
+}
+
+.gallery-item:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,.45);
+}
+
+
+/* ==========================================================
+   IMAGE
+========================================================== */
+
+.gallery-item img{
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:contain;
+
+    background:#000;
+
+    display:block;
+
+    pointer-events:none;
+
+    -webkit-user-drag:none;
+}
+
+
+/* ==========================================================
+   CAPTION
+========================================================== */
+
+.caption{
+
+    padding:12px;
+
+    text-align:center;
+
+    font-weight:600;
+
+    color:#ddd;
+
+    letter-spacing:.5px;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer{
+
+    border-top:1px solid #2d2d2d;
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#888;
+}
+
+
+/* ==========================================================
+   LIGHTBOX
+========================================================== */
+
+#lightbox{
+
+    position:fixed;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+}
+
+.hidden{
+
+    display:none !important;
+}
+
+
+/* ==========================================================
+   OVERLAY
+========================================================== */
+
+#overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.92);
+}
+
+
+/* ==========================================================
+   IMAGE CONTAINER
+========================================================== */
+
+.lightbox-content{
+
+    position:relative;
+
+    z-index:10;
+
+    max-width:92%;
+
+    max-height:90%;
+
+    text-align:center;
+}
+
+
+/* ==========================================================
+   IMAGE
+========================================================== */
+
+#lightboxImage{
+
+    max-width:100%;
+
+    max-height:82vh;
+
+    object-fit:contain;
+
+    border-radius:10px;
+
+    background:black;
+
+    pointer-events:none;
+
+    -webkit-user-drag:none;
+}
+
+
+/* ==========================================================
+   POPUP CAPTION
+========================================================== */
+
+#imageCaption{
+
+    margin-top:15px;
+
+    font-size:1.1rem;
+
+    color:white;
+}
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+#closeBtn,
+#prevBtn,
+#nextBtn{
+
+    position:absolute;
+
+    z-index:20;
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    border-radius:50%;
+}
+
+#closeBtn:hover,
+#prevBtn:hover,
+#nextBtn:hover{
+
+    background:#2196F3;
+}
+
+
+/* Close */
+
+#closeBtn{
+
+    top:25px;
+
+    right:25px;
+
+    width:52px;
+
+    height:52px;
+
+    font-size:2rem;
+}
+
+
+/* Previous */
+
+#prevBtn{
+
+    left:20px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:55px;
+
+    height:55px;
+
+    font-size:2rem;
+}
+
+
+/* Next */
+
+#nextBtn{
+
+    right:20px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:55px;
+
+    height:55px;
+
+    font-size:2rem;
+}
+
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#333;
+
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#555;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width:900px){
+
+    .gallery-grid{
+
+        grid-template-columns:
+            repeat(auto-fill,minmax(180px,1fr));
+    }
+
+    .gallery-item img{
+
+        height:250px;
+    }
+
+    .year-title{
+
+        font-size:1.6rem;
+    }
+
+}
+
+
+@media (max-width:600px){
+
+    .site-header h1{
+
+        font-size:1.6rem;
+    }
+
+    .site-header p{
+
+        font-size:.9rem;
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+        gap:15px;
+    }
+
+    .gallery-item img{
+
+        height:180px;
+    }
+
+    #prevBtn,
+    #nextBtn{
+
+        width:42px;
+        height:42px;
+        font-size:1.4rem;
+    }
+
+    #closeBtn{
+
+        width:45px;
+        height:45px;
+        font-size:1.8rem;
+    }
+
+}
