@@ -2,35 +2,43 @@
   "2026": [
     {
       "file": "9W2KEY-1.jpg",
-      "callsign": "9W2KEY-APRS"
+      "callsign": "9W2KEY"
+      "title": "APRS"
     },
     {
       "file": "9W2KEY-2.jpg",
-      "callsign": "9W2KEY-APRS"
+      "callsign": "9W2KEYS"
+      "title": "APRS"
     },
     {
       "file": "9W2KEY-3.jpg",
-      "callsign": "9W2KEY-APRS"
+      "callsign": "9W2KEY"
+      "title": "APRS"
     },
     {
       "file": "EG1PLD.jpg",
-      "callsign": "EG1PLD-EL"
+      "callsign": "EG1PLD"
+      "title": "EL"
     },
     {
       "file": "EG1PLL.jpg",
-      "callsign": "EG1PLL-EL"
+      "callsign": "EG1PLL"
+      "title": "EL"
     },
     {
       "file": "Radioaficionados.png",
       "callsign": "Radioaficionados"
+      "title": "EL"
     },
     {
       "file": "WP4ARC.png",
-      "callsign": "WP4ARC-EL"
+      "callsign": "WP4ARC"
+      "title": "EL"
     },
     {
       "file": "YB4RWH.jpg",
-      "callsign": "YB4RWH-APRS"
+      "callsign": "YB4RWH"
+      "title": "APRS"
     }
   ]
 }
