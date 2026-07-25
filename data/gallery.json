@@ -1,16 +1,14 @@
 {
   "2026": [
     {
-      "file": "JA1ABC.webp",
-      "callsign": "JA1ABC"
+      "file": "2026-01-12_JA1ABC.webp",
+      "callsign": "JA1ABC",
+      "date": "2026-01-12"
     },
     {
-      "file": "VK3XYZ.webp",
-      "callsign": "VK3XYZ"
-    },
-    {
-      "file": "DL1ABC.webp",
-      "callsign": "DL1ABC"
+      "file": "2026-03-05_JA1ABC.webp",
+      "callsign": "JA1ABC",
+      "date": "2026-03-05"
     }
   ]
 }
