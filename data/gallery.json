@@ -1,3 +1,16 @@
 {
-  "2026": []
+  "2026": [
+    {
+      "file": "JA1ABC.webp",
+      "callsign": "JA1ABC"
+    },
+    {
+      "file": "VK3XYZ.webp",
+      "callsign": "VK3XYZ"
+    },
+    {
+      "file": "DL1ABC.webp",
+      "callsign": "DL1ABC"
+    }
+  ]
 }
