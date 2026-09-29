@@ -1,43 +1,43 @@
 {
   "2026": [
     {
-      "file": "9W2KEY-1.jpg",
+      "file": "9M4CSR-22SEP.jpg",
+      "callsign": "9M4CSR",
+      "title": "APRS"
+    },
+    {
+      "file": "9M4CSR-29SEP.jpg",
+      "callsign": "9M4CSR",
+      "title": "APRS"
+    },
+    {
+      "file": "9M4GKS-22SEP.jpg",
+      "callsign": "9M4GKS",
+      "title": "APRS"
+    },
+    {
+      "file": "9M4GKS-28SEP.jpg",
+      "callsign": "9M4GKS",
+      "title": "APRS"
+    },
+    {
+      "file": "9W2KEY-4JUN.jpg",
       "callsign": "9W2KEY",
       "title": "APRS"
     },
     {
-      "file": "9W2KEY-2.jpg",
+      "file": "9W2KEY-16JUL.jpg",
       "callsign": "9W2KEY",
       "title": "APRS"
     },
     {
-      "file": "9W2KEY-3.jpg",
+      "file": "9W2KEY-28MAY.jpg",
       "callsign": "9W2KEY",
       "title": "APRS"
     },
     {
-      "file": "EG1PLD.jpg",
-      "callsign": "EG1PLD",
-      "title": "EchoLink"
-    },
-    {
-      "file": "EG1PLL.jpg",
-      "callsign": "EG1PLL",
-      "title": "EchoLink"
-    },
-    {
-      "file": "Radioaficionados.png",
-      "callsign": "Radioaficionados",
-      "title": "EchoLink"
-    },
-    {
-      "file": "WP4ARC.png",
-      "callsign": "WP4ARC",
-      "title": "EchoLink"
-    },
-    {
-      "file": "YB4RWH.jpg",
-      "callsign": "YB4RWH",
+      "file": "9W4GTS-25SEP.jpg",
+      "callsign": "9W4GTS",
       "title": "APRS"
     }
   ]
