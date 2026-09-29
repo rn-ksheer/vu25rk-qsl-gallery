@@ -38,32 +38,32 @@
 
     <!-- =============== IMAGE VIEWER =============== -->
 
-    <div id="lightbox" class="hidden">
+    <div id="lightbox" class="hidden" aria-hidden="true">
 
         <!-- Dark Background -->
         <div id="overlay"></div>
 
         <!-- Close -->
-        <button id="closeBtn" title="Close">&times;</button>
+        <button id="closeBtn" title="Close" aria-label="Close image viewer">&times;</button>
 
         <!-- Previous -->
-        <button id="prevBtn" title="Previous">&#10094;</button>
+        <button id="prevBtn" title="Previous" aria-label="Previous QSL">&#10094;</button>
 
         <!-- Image -->
 
         <div class="lightbox-content">
-
-            <img id="lightboxImage"
-                 src=""
-                 alt="QSL Card"
-                 draggable="false">
-
+            <div class="image-stage" id="imageStage">
+                <div class="image-loader" id="imageLoader" role="status" aria-label="Loading image"></div>
+                <img id="lightboxImage"
+                     src=""
+                     alt="QSL Card"
+                     draggable="false">
+            </div>
             <div id="imageCaption"></div>
-
         </div>
 
         <!-- Next -->
-        <button id="nextBtn" title="Next">&#10095;</button>
+        <button id="nextBtn" title="Next" aria-label="Next QSL">&#10095;</button>
 
     </div>
 

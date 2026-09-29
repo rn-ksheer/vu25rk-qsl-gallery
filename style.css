@@ -467,3 +467,136 @@ footer{
     }
 
 }
+/* ==========================================================
+   Lightbox loading, animation, and zoom support
+========================================================== */
+
+.gallery-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .6s ease, transform .6s ease, box-shadow .25s ease;
+}
+
+.gallery-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#lightbox {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .25s ease, visibility .25s ease;
+}
+
+#lightbox.hidden {
+    display: flex !important;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.lightbox-content {
+    width: min(92vw, 1200px);
+    max-width: 92vw;
+    max-height: 90vh;
+}
+
+.image-stage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: min(78vh, 900px);
+    overflow: hidden;
+    touch-action: none;
+    background: #000;
+    border-radius: 10px;
+}
+
+#lightboxImage {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(0, 0) scale(1);
+    transform-origin: center center;
+    transition: transform .16s ease, opacity .18s ease;
+    opacity: 1;
+    will-change: transform;
+    pointer-events: auto;
+    cursor: zoom-in;
+}
+
+#lightboxImage.is-loading {
+    opacity: 0;
+}
+
+#lightboxImage.is-zoomed {
+    cursor: grab;
+}
+
+#lightboxImage.is-dragging {
+    cursor: grabbing;
+    transition: none;
+}
+
+.image-loader {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 46px;
+    height: 46px;
+    border: 4px solid rgba(255,255,255,.25);
+    border-top-color: #2196F3;
+    border-radius: 50%;
+    animation: qsl-spin .8s linear infinite;
+}
+
+.image-loader.is-visible {
+    display: block;
+}
+
+@keyframes qsl-spin {
+    to { transform: rotate(360deg); }
+}
+
+#imageCaption {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 12px;
+    line-height: 1.35;
+}
+
+.caption-callsign {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+
+.caption-title {
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.caption-year {
+    color: #aaa;
+    font-size: .9rem;
+}
+
+@media (max-width: 600px) {
+    .image-stage {
+        height: min(72vh, 760px);
+    }
+
+    .lightbox-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 8px;
+    }
+
+    #prevBtn { left: 8px; }
+    #nextBtn { right: 8px; }
+}
