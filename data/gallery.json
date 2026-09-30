@@ -39,6 +39,65 @@
       "file": "9W4GTS-25SEP.jpg",
       "callsign": "9W4GTS",
       "title": "APRS"
+    }    
+    {
+      "file": "CX2JO-28SEP.png",
+      "callsign": "CX2JO",
+      "title": "APRS"
+    }
+        {
+      "file": "EG1PLD-7JUN.jpg",
+      "callsign": "EG1PLD",
+      "title": "EchoLink"
+    }
+        {
+      "file": "EG1PLL-8JUN.jpg",
+      "callsign": "EG1PLL",
+      "title": "EchoLink"
+    }
+        {
+      "file": "Radioaficionados-17JUN.png",
+      "callsign": "Radioaficionados",
+      "title": "EchoLink"
+    }
+        {
+      "file": "WP4ARC-20MAR.png",
+      "callsign": "WP4ARC",
+      "title": "EchoLink"
+    }
+         {
+      "file": "XEIJMB-28SEP.jpg",
+      "callsign": "XEIJMB",
+      "title": "APRS"
+    }
+        {
+      "file": "XE1JMB-29SEP.jpg",
+      "callsign": "XE1JMB",
+      "title": "APRS"
+    }
+    {
+      "file": "XEIJMB-30SEP.jpg",
+      "callsign": "XEIJMB",
+      "title": "APRS"
+    }
+        {
+      "file": "YB4RWH-28JUL.jpg",
+      "callsign": "YB4RWH",
+      "title": "APRS"
+    }
+        {
+      "file": "9M4GKS-30SEP.jpg",
+      "callsign": "9M4GKS",
+      "title": "APRS"
     }
   ]
 }
+
+
+<!--
+{
+      "file": "",
+      "callsign": "",
+      "title": ""
+}
+-->
