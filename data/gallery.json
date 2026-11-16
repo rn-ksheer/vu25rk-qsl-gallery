@@ -123,6 +123,361 @@
       "file": "CX2JO-27SEP.png",
       "callsign": "CX2JO",
       "title": "APRS"
-    }
+    },
+    {
+      "file": "VU2IU-29AUG.jpg",
+      "callsign": "VU2IU",
+      "title": "EchoLink"
+    },
+    {
+      "file": "VU2ZOI-1-30JUN.png",
+      "callsign": "VU2ZOI",
+      "title": "UHF"
+    },
+        {
+      "file": "XEIJMB-5OCT.jpg",
+      "callsign": "XEIJMB",
+      "title": "APRS"
+    },
+        {
+      "file": "9M4CSR-6OCT.jpg",
+      "callsign": "9M4CSR",
+      "title": "APRS"
+    },
+        {
+      "file": "9M4GKS-6OCT.jpg",
+      "callsign": "9M4GKS",
+      "title": "APRS"
+    },
+        {
+      "file": "XE1JMB-6OCT.jpg",
+      "callsign": "XE1JMB",
+      "title": "APRS"
+    },
+        {
+      "file": "CX2JO-7OCT.png",
+      "callsign": "CX2JO",
+      "title": "APRS"
+    },
+        {
+      "file": "XEIJMB-7OCT.jpg",
+      "callsign": "XEIJMB",
+      "title": "APRS"
+    },
+        {
+      "file": "CX2JO-9OCT-1.png",
+      "callsign": "CX2JO",
+      "title": "APRS"
+    },
+        {
+      "file": "CX2JO-9OCT-2.png",
+      "callsign": "CX2JO",
+      "title": "APRS"
+    },
+        {
+      "file": "XEIJMB-9OCT.jpg",
+      "callsign": "XEIJMB",
+      "title": "APRS"
+    },
+        {
+      "file": "9W4GTS-9OCT.jpg",
+      "callsign": "9W4GTS",
+      "title": "APRS"
+    },
+        {
+      "file": "CX2JO-9OCT-3.png",
+      "callsign": "CX2JO",
+      "title": "APRS"
+    },
+        {
+      "file": "TI0RHU-11OCT.jpg",
+      "callsign": "TI0RHU",
+      "title": "APRS"
+    },
+        {
+      "file": "CE4JWI-12OCT.jpg",
+      "callsign": "CE4JWI",
+      "title": "APRS"
+    },
+        {
+      "file": "XE1JMB-12OCT.jpg",
+      "callsign": "XE1JMB",
+      "title": "APRS"
+    },
+          {
+    "file": "CE4JWI-11OCT.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "9M4GKS-11OCT.jpg",
+    "callsign": "9M4GKS",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-11OCT.png",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LU6EGD-11OCT.jpg",
+    "callsign": "LU6EGD",
+    "title": "APRS"
+  },
+  {
+    "file": "TI0RHU-12OCT.jpg",
+    "callsign": "TI0RHU",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-12OCT.png",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XE1JMB-13OCT.jpg",
+    "callsign": "XE1JMB",
+    "title": "APRS"
+  },
+  {
+    "file": "XE1JMB-14OCT.jpg",
+    "callsign": "XE1JMB",
+    "title": "APRS"
+  },
+  {
+    "file": "LU8HEG-15OCT.jpg",
+    "callsign": "LU8HEG",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-15OCT.png",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XE1JMB-16OCT.jpg",
+    "callsign": "XE1JMB",
+    "title": "APRS"
+  },
+  {
+    "file": "9W4GTS-16OCT.jpg",
+    "callsign": "9W4GTS",
+    "title": "APRS"
+  },
+  {
+    "file": "LU1QAO-16OCT.jpg",
+    "callsign": "LU1QAO",
+    "title": "APRS"
+  },
+  {
+    "file": "9M8SJQ-16OCT.png",
+    "callsign": "9M8SJQ",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-17OCT.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-17OCT.png",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-19OCT-1.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-19OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-19OCT-2.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-20OCT.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-20OCT-1.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "9M4CSR-20OCT.jpg",
+    "callsign": "9M4CSR",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-20OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-21OCT-1.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-21OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LUXXXX-21OCT.jpg",
+    "callsign": "LUXXXX",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-26OCT.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-26OCT.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-26OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-29OCT.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-29OCT.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-29OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-30OCT.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-30OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LU1QAO-30OCT.jpg",
+    "callsign": "LU1QAO",
+    "title": "APRS"
+  },
+  {
+    "file": "8G47OLS-30OCT.jpg",
+    "callsign": "8G47OLS",
+    "title": "APRS"
+  },
+  {
+    "file": "9W4GTS-30OCT.jpg",
+    "callsign": "9W4GTS",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-20OCT-2.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-31OCT.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-31OCT.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-2NOV.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-2NOV.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-2NOV.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LU1QAO-2NOV.jpg",
+    "callsign": "LU1QAO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-3NOV.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-3NOV.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-4NOV.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "YD1AJQ-4NOV.png",
+    "callsign": "YD1AJQ",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-4NOV.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LU1QAO-4NOV.jpg",
+    "callsign": "LU1QAO",
+    "title": "APRS"
+  },
+  {
+    "file": "XEIJMB-5NOV.jpg",
+    "callsign": "XEIJMB",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-5NOV.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "CE4JWI-16NOV.jpg",
+    "callsign": "CE4JWI",
+    "title": "APRS"
+  },
+  {
+    "file": "CX2JO-16NOV.jpg",
+    "callsign": "CX2JO",
+    "title": "APRS"
+  },
+  {
+    "file": "LU1QAO-16NOV.png",
+    "callsign": "LU1QAO",
+    "title": "APRS"
+  }
   ]
 }
